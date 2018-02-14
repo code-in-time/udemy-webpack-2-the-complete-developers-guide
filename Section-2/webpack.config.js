@@ -8,6 +8,14 @@ const config = {
         path: path.resolve(__dirname,'build'),
         // Built file name
         filename: 'bundle.js'
+    },
+    module: {
+        rules:[
+            {
+                use: 'babel-loader',
+                test: /\.js$/,
+            }
+        ]
     }
     
 };
