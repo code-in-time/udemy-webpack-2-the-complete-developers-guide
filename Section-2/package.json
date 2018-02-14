@@ -1,11 +1,15 @@
 {
-  "name": "udemy-webpack-2-the-complete-developers-guide",
+  "name": "section-2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.2.0-rc.0"
+  }
 }
